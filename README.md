@@ -5,7 +5,7 @@ This is an auto gradient engine from [Andrej Karpathy's video](https://www.youtu
 
 - The value class keeps track of each operation applied to a number and automatically calculates the gradients using ._backward()
 - A small neural network was built using the neuron, layer, and multi layer perceptron (MLP) class 
-Training proces: forward pass -> calculate loss -> backpropogation/calculate gradients -> gradient descent.
+Training process: forward pass -> calculate loss -> backpropagation/calculate gradients -> gradient descent.
 
 
 Before this, I had no clue how neural networks actually learned. It seemed like magic. This taught me: 
